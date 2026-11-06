@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PKL - Nuril Fatonah | TJKT</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <h2>PKL<span>Nuril.</span></h2>
+    <div class="menu">
+      <a href="#home">Home</a>
+      <a href="#tentang">Tempat PKL</a>
+      <a href="#jurnal">Jurnal</a>
+      <a href="#galeri">Galeri</a>
+    </div>
+  </nav>
+
+  <section id="home" class="hero">
+    <p class="badge">PRAKTEK KERJA LAPANGAN 2026/2027</p>
+    <h1>Halo, Aku Nuril Fatonah</h1>
+    <p>Siswa TJKT (Teknik Jaringan Komputer dan Telekomunikasi)<br>
+    PKL di PT Telkom Akses Magelang | Divisi Replacement<br>
+    24 Agustus 2026 - 29 Januari 2027</p>
+    <button onclick="showAlert()">Lihat Jurnal PKL</button>
+  </section>
+
+  <section id="tentang" class="card">
+    <h2>Tentang Tempat PKL</h2>
+    <p><b>Nama Perusahaan:</b> PT Telkom Akses Magelang</p>
+    <p><b>Divisi:</b> Replacement / Maintenance Jaringan</p>
+    <p><b>Alamat:</b> Magelang, Jawa Tengah</p>
+    <p><b>Bidang:</b> Instalasi & Perbaikan Jaringan Fiber Optik IndiHome</p>
+    <h3 style="margin-top:15px;">Yang Aku Kerjakan:</h3>
+    <ul style="margin-left:18px; margin-top:8px; line-height:1.7;">
+      <li>Replacement ONT / Modem pelanggan yang rusak</li>
+      <li>Pengecekan kabel fiber & konektor (patch cord)</li>
+      <li>Setting ulang ONT & konfigurasi WiFi pelanggan</li>
+      <li>Pengukuran redaman menggunakan OPM / OTDR</li>
+      <li>Input laporan kunjungan & trouble ticket</li>
+    </ul>
+  </section>
+
+  <section id="jurnal" class="card">
+    <h2>Jurnal Harian PKL</h2>
+    <p style="color:#777; font-size:13px;">Tulis kegiatan hari ini, nanti otomatis muncul di bawah.</p>
+    <input type="text" id="inputJurnal" placeholder="Contoh: Hari ini replacement ONT di Mertoyudan...">
+    <button onclick="tambahJurnal()">Tambah Jurnal</button>
+    <ul id="listJurnal"></ul>
+    <div class="contoh-jurnal">
+      <b>Contoh Jurnal:</b><br>
+      <small>24 Agustus 2026 - Orientasi, pengenalan SOP & alat kerja divisi replacement</small><br>
+      <small>25 Agustus 2026 - Ikut teknisi kunjungan pelanggan, belajar cek redaman fiber</small><br>
+      <small>26 Agustus 2026 - Belajar replacement ONT & setting ulang WiFi pelanggan</small>
+    </div>
+  </section>
+
+  <section id="galeri" class="card">
+    <h2>Galeri Kegiatan</h2>
+    <div class="galeri-box">
+      <div class="foto">Foto di Kantor</div>
+      <div class="foto">Foto di Lapangan</div>
+      <div class="foto">Foto Bareng Teknisi</div>
+    </div>
+    <p style="font-size:13px; color:#777; margin-top:10px;">Ganti kotak ini dengan foto asli kamu pas PKL di Telkom Akses. Ingat, jangan foto yang ada data pelanggan / password WiFi orang ya.</p>
+  </section>
+
+  <section class="card">
+    <h2>Kesimpulan PKL</h2>
+    <p>Selama PKL di PT Telkom Akses Magelang divisi Replacement, saya belajar langsung bagaimana cara menangani gangguan jaringan fiber optik, melakukan replacement perangkat ONT, serta berkomunikasi dengan pelanggan. Pengalaman ini sangat membantu saya memahami penerapan teori TJKT di dunia kerja yang sesungguhnya.</p>
+  </section>
+
+  <footer>
+    <p>Dibuat oleh Nuril Fatonah | TJKT | Proyek PKL 2026</p>
+    <p>PT Telkom Akses Magelang - Divisi Replacement</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
