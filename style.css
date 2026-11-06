@@ -1,0 +1,38 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; }
+body { background: #FFF7F0; color: #333; }
+nav {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 15px 20px; background: white;
+  position: sticky; top: 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+nav span { color: #E31E24; }
+nav a { text-decoration: none; color: #333; margin-left: 12px; font-size: 14px; }
+.hero { text-align: center; padding: 60px 20px; }
+.badge {
+  display: inline-block; background: #FFE3E3; color: #E31E24;
+  padding: 6px 12px; border-radius: 20px; font-size: 12px; font-weight: bold; margin-bottom: 15px;
+}
+.hero h1 { font-size: 32px; margin-bottom: 10px; }
+.hero p { color: #777; margin-bottom: 20px; line-height: 1.6; }
+.hero button, .card button {
+  background: #E31E24; color: white; border: none;
+  padding: 10px 20px; border-radius: 20px; cursor: pointer;
+}
+.card {
+  background: white; margin: 20px; padding: 20px;
+  border-radius: 15px; box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+.card h2 { margin-bottom: 10px; }
+.card input {
+  width: 100%; padding: 10px; margin: 10px 0;
+  border: 1px solid #ddd; border-radius: 10px;
+}
+.contoh-jurnal { background: #FFF7F0; padding: 12px; border-radius: 10px; margin-top: 15px; line-height: 1.7; }
+.galeri-box { display: flex; gap: 10px; margin-top: 10px; }
+.foto {
+  flex: 1; height: 100px; background: #FFE3E3;
+  display: flex; align-items: center; justify-content: center;
+  border-radius: 10px; font-size: 13px; text-align: center; padding: 5px;
+}
+footer { text-align: center; padding: 20px; color: #999; font-size: 13px; line-height: 1.6; }
